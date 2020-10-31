@@ -11,11 +11,11 @@ export const Button = styled(Link)`
     border: none; 
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     transition: .2s;
 
-    &:hover {        
+    &:hover {         
         background: ${({primary}) => (primary ? '#fff' : '#01bf71')};
     }
 ` 
